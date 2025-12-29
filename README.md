@@ -63,6 +63,14 @@ These prompts counteract that pressure.
 - [`docs/failure-modes-catalog.md`](docs/failure-modes-catalog.md) — How prompts can fail
 - [`docs/design-notes.md`](docs/design-notes.md) — Rationale and design decisions
 
+## Validation
+
+This framework is subject to revision based on evidence. The [`validation/`](validation/) directory contains:
+
+- [`evidence/`](validation/evidence/) — Test results and before/after comparisons
+- [`falsification/`](validation/falsification/) — Criteria for disproving or revising the framework
+- [`cases/`](validation/cases/) — Real usage examples: successes, failures, learnings
+
 ## Origin
 
 Based on the [Anti-Affirmation Manifesto](anti_affirmation_manifesto.md), expanded into domain-specific prompts.
